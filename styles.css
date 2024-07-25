@@ -29,3 +29,12 @@ table, th, td {
 ul, ol {
     padding-left: 20px;
 }
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.c-info {
+    margin-left: 20px;
+}

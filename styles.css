@@ -1,5 +1,8 @@
 body {
     font-family: Montserrat, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navbar {
@@ -14,6 +17,12 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555555;
+    color: #ffffff;
 }
 
 .section {

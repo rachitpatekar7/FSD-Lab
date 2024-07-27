@@ -62,20 +62,45 @@
 <div class="container section">
     <h2>Contact Me</h2>
     <div class="row contact">
-        <div class="col-md-3">
-            <img src="mobile.png" class="img-fluid rounded" alt="Mobile">
-        </div>
+        
         <div class="col-md-9 contact-info">
             <p>Phone: 1234567890</p>
             <p>Email: rachit@gmail.com</p>
             <p>Instagram: <a href="https://www.instagram.com/rachitpatekar" target="_blank">@rachitpatekar</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/rachitpatekar" target="_blank" class="linkedin">Rachit Patekar</a></p>
         </div>
+        <div class="col-md-3">
+            <img src="mobile.png" height = 150 width = 150 class="img-fluid rounded" alt="Mobile">
+        </div>
     </div>
 </div>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<div class="container section">
+    <h2>Sign up for the Newsletter</h2>
+    <div class="row contact">
+        <div class="col-md-9 contact-info">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" class="form-control" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="prefer_not_to_say">Prefer not to say</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>

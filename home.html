@@ -34,6 +34,19 @@
             border-collapse: collapse;
             padding: 10px;
         }
+        
+        h2 {
+            color: blue;
+        }
+
+        .hobby-item {
+            color: green;
+            font-weight: bold;
+        }
+
+        #welcome-message {
+            font-size: 28px;
+        }
     </style>
 </head>
 <body>
@@ -59,39 +72,16 @@
 </nav>
 
 <div class="container section">
-    <h2>Welcome to RP.</h2>
+    <h2 id="welcome-message">Welcome to RP.</h2>
     <p>Stands for Rachit Patekar, Student of MIT-WPU, TY CSF, PRN: 1032222764. Roll No. 52.</p>
     <img src="rp.jpg" class="img-fluid rounded" alt="Rachit Patekar">
     <hr>
-    <h3>A Punnet Square cause why not</h3>
-    <table class="table table-bordered">
-        <tr>
-            <th></th>
-            <th>X</th>
-            <th>Y</th>
-        </tr>
-        <tr>
-            <th>X</th>
-            <td>XX</td>
-            <td>XY</td>
-        </tr>
-        <tr>
-            <th>Y</th>
-            <td>YX</td>
-            <td>YY</td>
-        </tr>
-    </table>
-    <hr>
     <h3>Hobbies</h3>
     <ul>
-        <li>I make music under the name of Mobile Green, here's my Spotify: <a href="https://open.spotify.com/artist/4YG4qLvE5c9j16YYQH1fqv" target="_blank">Mobile Green.</a></li>
-        <li>I make remixes under the name of PatekRemixes, here's my Spotify: <a href="https://open.spotify.com/artist/3DtgcJKZUIpKlehmI0UgkV" target="_blank">PatekRemixes.</a></li>
-        <li>I like to work with IoT Projects as well.</li>
+        <li class="hobby-item">I make music under the name of Mobile Green, here's my Spotify: <a href="https://open.spotify.com/artist/4YG4qLvE5c9j16YYQH1fqv" target="_blank">Mobile Green.</a></li>
+        <li class="hobby-item">I make remixes under the name of PatekRemixes, here's my Spotify: <a href="https://open.spotify.com/artist/3DtgcJKZUIpKlehmI0UgkV" target="_blank">PatekRemixes.</a></li>
+        <li class="hobby-item">I like to work with IoT Projects as well.</li>
     </ul>
 </div>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
